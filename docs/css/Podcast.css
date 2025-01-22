@@ -23,7 +23,7 @@ header h2 {
 }
 
 .background{
-    background-image: url('/P05AdrianCanedoBello/docs/Fotos/fondoPodcast.jpg'); 
+    background-image: url('../Fotos/fondoPodcast.jpg'); 
     background-position: center;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@ header h2 {
 }
 
 .extra-boxes{
-        background-image: url('/P05AdrianCanedoBello/docs/Fotos/fondoPodcast.jpg'); 
+        background-image: url('../Fotos/fondoPodcast.jpg'); 
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -120,4 +120,26 @@ a{
 
 strong{
     color: #bcb1b1;
+}
+
+.content-box ul li a {
+    text-decoration: none; 
+    color: #1a73e8; 
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.content-box ul li a:hover {
+    color: #ff5722; 
+    text-shadow: 0px 0px 8px rgba(255, 87, 34, 0.7); 
+    cursor: pointer; 
+}
+
+.content-box ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+
+.content-box ul li {
+    margin-bottom: 10px; 
 }
