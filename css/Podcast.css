@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: linear-gradient(to right, rgb(40, 40, 34), rgb(44, 44, 45), rgb(192, 192, 192));
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h2 {
+    margin: 5px 0 0 0;
+    font-size: 1.2em;
+    color: #bbb;
+}
+
+.background{
+    background-image: url('/P05AdrianCanedoBello/Fotos/fondoPodcast.jpg'); 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra-boxes{
+        background-image: url('/P05AdrianCanedoBello/Fotos/fondoPodcast.jpg'); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+}
+
+.extra-boxescards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1%;
+}
+
+.content-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.content-box audio {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: #bbb;
+}
+
+.next-episodes-title {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 20px;  
+}
+
+.extra-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 20px;
+    width: 30%;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.box h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.box p {
+    color: #bbb;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: #797474;
+}
+
+strong{
+    color: #bcb1b1;
+}
