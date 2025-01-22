@@ -23,7 +23,7 @@ header h2 {
 }
 
 .background{
-    background-image: url('../Fotos/fondoPodcast.jpg'); 
+    background-image: url('/P05AdrianCanedoBello/docs/Fotos/fondoPodcast.jpg'); 
     background-position: center;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@ header h2 {
 }
 
 .extra-boxes{
-        background-image: url('../Fotos/fondoPodcast.jpg'); 
+        background-image: url('/P05AdrianCanedoBello/docs/Fotos/fondoPodcast.jpg'); 
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
